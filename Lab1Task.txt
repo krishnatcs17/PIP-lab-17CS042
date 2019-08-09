@@ -97,4 +97,12 @@
 		
 4) Different python tools for different domains
 	1. Web development
-		
+		Django, Pyramid, Bottle, Tornado, Flask, web2py
+        2. GUI Development:
+                tkInter, PyGObject, PyQt, PySide, Kivy, wxPython
+        3. Scientific and Numeric:
+                SciPy, Pandas, IPython
+        4. Software Development:
+                Buildbot, Trac, Roundup
+        5. System Administration:
+                Ansible, Salt, OpenStack
