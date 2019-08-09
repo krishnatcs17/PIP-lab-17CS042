@@ -1,0 +1,100 @@
+1) Pyhon specific IDEs:
+	1. PyCharm
+	2. Spider
+	3. Thonny
+	4. PyDev
+	5. IDLE
+
+   Code editors for python:
+
+	1. Visual studio Code
+	2. Atom
+	3. Sublime text
+	4. Notepad++
+	5. Pyscripters
+	 etc..
+
+2) Difference between python 2 and python3
+	1. Division operation
+		print 7 / 5
+		print -7 / 5    
+		  
+		''' 
+		Output in Python 2.x 
+		1 
+		-2 
+		Output in Python 3.x : 
+		1.4 
+		-1.4 
+	2. print function 
+		n this the print function in Python 2.x is replaced by print() function in Python 3.x,i.e, to print in Python 3.x an extra 			pair of parenthesis is required.
+
+		print 'Hello World!'      # Python 3.x doesn't support 
+		print('Good morning') 
+		  
+		''' 
+		Output in Python 2.x : 
+		Hello World! 
+		Good morning
+		  
+		Output in Python 3.x : 
+		File "a.py", line 1 
+		    print 'Hello World!' 
+				       ^ 
+		SyntaxError: invalid syntax 
+		If we use parenthesis in python 2.x then there is no issue but if we don’t use parenthesis in python 3.x, we get SyntaxError.
+	3. Unicode
+		In Python 2, implicit str type is ASCII. But in Python 3.x implicit str type is Unicode.
+
+		print(type('default string ')) 
+		print(type(b'string with b ')) 
+		  
+		''' 
+		Output in Python 2.x (Bytes is same as str) 
+		<type 'str'> 
+		<type 'str'> 
+		  
+		Output in Python 3.x (Bytes and str are different) 
+		<class 'str'> 
+		<class 'bytes'> 
+		'''
+
+		Python 2.x also supports Unicode
+
+		print(type('default string ')) 
+		print(type(u'string with b ')) 
+		  
+		''' 
+		Output in Python 2.x (Unicode and str are different) 
+		<type 'str'> 
+		<type 'unicode'> 
+		  
+		Output in Python 3.x (Unicode and str are same) 
+		<class 'str'> 
+		<class 'str'> 
+	4. xrange
+		xrange() of Python 2.x doesn’t exist in Python 3.x. In Python 2.x, range returns a list i.e. range(3) returns [0, 1, 2] while 			xrange returns a xrange object i. e., xrange(3) returns iterator object which work similar to Java iterator and generates 			number when needed.
+		If we need to iterate over the same sequence multiple times, we prefer range() as range provides a static list. xrange() 			reconstructs the sequence every time. xrange() doesn’t support slices and other list methods. The advantage of xrange() is, it 			saves memory when the task is to iterate over a large range.
+
+
+		for x in xrange(1, 5): 
+		    print(x), 
+		  
+		for x in range(1, 5): 
+		    print(x), 
+		  
+		''' 
+		Output in Python 2.x 
+		1 2 3 4 1 2 3 4 
+		  
+		Output in Python 3.x 
+		NameError: name 'xrange' is not defined 
+		'''
+
+3) Running a python program in terminal:
+	create a python file with .py extension in gedit or any editor and save it. Go to the directory where it is saved. Run in the terminal 		by typing the following command - python3 <fileName>.py
+	example: bmsce@bmsce-HP-Compaq-8000-Elite-CMT-PC:~$ python3 somep.py
+		
+4) Different python tools for different domains
+	1. Web development
+		
