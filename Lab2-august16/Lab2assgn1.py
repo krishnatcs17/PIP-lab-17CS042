@@ -1,3 +1,4 @@
+# extracting even numbers from a list
 list1 = input("Enter the elements separated with space: ").split(" ")
 list2 = list()
 for i in list1:
