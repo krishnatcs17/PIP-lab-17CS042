@@ -1,3 +1,4 @@
+# Fibonacci series
 def fib(x):
     if x is 0 or x is 1:
         return x
