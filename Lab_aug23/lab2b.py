@@ -1,5 +1,6 @@
 def rev(arr):
-  print(arr.reverse())
+  arr.reverse()
+  print(arr)
   for i in range(len(arr)):
     arr[i] = arr[i][::-1]
   return arr
