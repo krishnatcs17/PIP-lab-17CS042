@@ -4,7 +4,7 @@ def rev(arr):
     arr[i] = arr[i][::-1]
   return arr
   
-  sent = input('Enter a long string: ')
-  arr = list(sent.split())
-  
-  print(rev(arr))
+sent = input('Enter a long string: ')
+arr = list(sent.split())
+
+print(rev(arr))
