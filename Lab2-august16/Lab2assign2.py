@@ -7,6 +7,6 @@ def fib(x):
 
 n = int(input("Enter the number of total numbers to be present in Fibonacci series(minimum 1): "))
 print("Fibonacci series is: ")
-for i in range(1, n+1):
-    print(fib(i-1), end=' ')
+for i in range(n):
+    print(fib(i), end=' ')
 

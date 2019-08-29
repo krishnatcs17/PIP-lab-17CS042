@@ -6,7 +6,5 @@ def search(a, n):
   return n in a
   
  
-if(search(arr, n)):
-  print(n, " is present")
-else:
-  print(n, " is not present")
+print(search(arr, n))
+
