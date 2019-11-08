@@ -44,7 +44,7 @@ class OnlineTicket(Frame):
 	
 		#submit
 		Label(self, text="").grid(sticky=W)
-		self.sub = Button(self, text="Submit", command=self.submit)
+		self.sub = Button(self, text="Book Ticket", command=self.submit)
 		self.sub.grid(sticky=W)
 
 		#textbox

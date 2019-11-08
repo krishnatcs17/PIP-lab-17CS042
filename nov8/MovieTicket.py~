@@ -45,7 +45,7 @@ class OnlineTicket(Frame):
 		#submit
 		Label(self, text="").grid(sticky=W)
 		self.sub = Button(self, text="Submit", command=self.submit)
-		self.sub.grid()
+		self.sub.grid(sticky=W)
 
 		#textbox
 		Label(self, text="Message: ").grid(row=20, column=0, sticky=W)
